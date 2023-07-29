@@ -6,7 +6,7 @@ var sum_to_n_b = function(n) {
     if (n <= 0) {
         return 0;
     }
-    return n + sum_to_n_a(n - 1);
+    return n + sum_to_n_b(n - 1);
 }
 
 var sum_to_n_c = function(n) {
